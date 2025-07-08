@@ -1,5 +1,33 @@
-# Vue 3 + TypeScript + Vite
+# Account Manager
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Описание
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Форма управления учетными записями на Vue 3 + TypeScript + Pinia + Element Plus.
+
+- Добавление, удаление, редактирование учетных записей
+- Валидация полей по ТЗ
+- Сохранение в localStorage
+- Метки преобразуются в массив объектов
+- UI на русском языке
+
+## Запуск
+
+```bash
+bun install
+bun run dev
+```
+
+## Стек
+- Vue 3 + Composition API
+- TypeScript
+- Pinia
+- Element Plus
+- Bun.js (runtime)
+
+## Структура
+- `src/stores/accounts.ts` — Pinia store
+- `src/components/AccountList.vue` — список аккаунтов
+- `src/components/AccountItem.vue` — форма одной учетной записи
+
+## Требования ТЗ
+- Все поля и логика реализованы согласно тестовому заданию (см. описание в репозитории) 
